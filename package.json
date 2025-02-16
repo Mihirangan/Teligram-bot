@@ -1,12 +1,6 @@
 {
-  "name": "telegram-ai-bot",
-  "version": "1.0.0",
-  "main": "bot.js",
   "dependencies": {
-    "node-telegram-bot-api": "^0.54.0",
-    "openai": "^4.0.0"
-  },
-  "scripts": {
-    "start": "node bot.js"
+    "@google/generative-ai": "^0.4.0",
+    "node-telegram-bot-api": "^0.61.0"
   }
 }
