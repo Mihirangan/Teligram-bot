@@ -3,7 +3,7 @@ const { GoogleGenerativeAI } = require('@google/generative-ai');
 
 // API Keys
 const TELEGRAM_BOT_TOKEN = "7984810905:AAEwravwNZml_TO8CzT26Qc3g8MDMhy1SnM";
-const GEMINI_API_KEY = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=$";
+const GEMINI_API_KEY = "AIzaSyCvS9ylWGp6tbMXYOr9Nd_MrVdIbNOfs7A";
 
 // Initialize APIs
 const bot = new TelegramBot(TELEGRAM_BOT_TOKEN, { polling: true });
